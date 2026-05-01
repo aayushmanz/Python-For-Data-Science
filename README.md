@@ -120,10 +120,14 @@ Comprehensive coverage of the Pandas library for data manipulation and analysis,
 - Selecting columns, rows, and combined selections
 - Math methods and statistical operations
 - **GroupBy:** Aggregation, transformation, and group-level operations (Part 1 & 2), including hands-on exercises
+- Merging, joining, and concatenation of DataFrames
 - Important DataFrame methods (reference notebook)
+- DataFrames deep-dive (CampusX series)
 
 **Practice in Pandas/**
-- Real-world dataset practice (YouTube channel analytics)
+- Practice 1: YouTube channel analytics
+- Practice 2: Cities by GDP analysis
+- Practice 3: Student academic performance
 
 ### `Database from Kaggle/`
 A curated collection of real-world CSV datasets used across Pandas and NumPy notebooks:
@@ -132,6 +136,7 @@ A curated collection of real-world CSV datasets used across Pandas and NumPy not
 |---|---|
 | `batsman_runs_ipl.csv` | IPL batsman run statistics |
 | `bollywood.csv` | Bollywood movie data |
+| `cities_by_gdp.csv` | Cities ranked by GDP |
 | `deliveries.csv` | IPL ball-by-ball delivery data |
 | `diabetes.csv` | Diabetes patient health metrics |
 | `global_top2000.csv` | Global top 2000 companies |
@@ -139,7 +144,19 @@ A curated collection of real-world CSV datasets used across Pandas and NumPy not
 | `ipl-matches.csv` | IPL match results |
 | `kohli_ipl.csv` | Virat Kohli IPL performance stats |
 | `movies.csv` | General movies dataset |
+| `student_performance_finalscore.csv` | Student academic performance and final scores |
 | `subs.csv` | Subscriber data |
+
+**`datasets /` subfolder** contains additional supporting files:
+
+| File | Description |
+|---|---|
+| `courses.csv / courses.xlsx` | Course catalogue data |
+| `deliveries.csv` | Supplementary delivery data |
+| `matches.csv` | Supplementary match data |
+| `reg-month1.csv` | Registration data for month 1 |
+| `reg-month2.csv / reg-month2.xlsx` | Registration data for month 2 |
+| `students.csv / students.xlsx` | Student registration data |
 
 ---
 
