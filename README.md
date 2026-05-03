@@ -1,13 +1,13 @@
-# Python for ML
+# Python for Data Science
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
-![License](https://img.shields.io/github/license/aayushmanz/Python-for-ML)
-![Last Commit](https://img.shields.io/github/last-commit/aayushmanz/Python-for-ML)
+![License](https://img.shields.io/github/license/aayushmanz/Python-For-Data-Science)
+![Last Commit](https://img.shields.io/github/last-commit/aayushmanz/Python-For-Data-Science)
 
-Welcome to my **Python for Machine Learning** learning repository.
+Welcome to my **Python for Data Science** learning repository.
 
-This repository documents my hands-on journey from fundamental Python programming to machine learning-ready coding, utilizing Jupyter Notebooks, practice sets, and modular mini-projects.
+This repository documents my hands-on journey from fundamental Python programming to data science-ready coding, utilizing Jupyter Notebooks, practice sets, and modular mini-projects.
 
 ---
 
@@ -175,7 +175,7 @@ A curated collection of real-world CSV datasets used across Pandas and NumPy not
 
 ## Goal
 
-To establish a robust foundation in Python programming tailored for Data Science and Machine Learning, bridging the gap between theoretical syntax and real-world analytical projects.
+To establish a robust foundation in Python programming tailored for Data Science, bridging the gap between theoretical syntax and real-world data analysis and analytical projects.
 
 ---
 
