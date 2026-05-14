@@ -46,8 +46,8 @@ If you are using this repo as a study roadmap, a good order is:
 3. **Exception Handling in Python**
 4. **File Handling in Python**
 5. **OOPS in Python**
-6. **Python fundamental Questions**
-7. **My projects**
+6. **Python Fundamental Questions**
+7. **My Projects**
 8. **NumPy For Python**
 9. **NumPy For Practice**
 10. **NumPy Advance**
@@ -72,7 +72,7 @@ Focused notebooks on:
 - decorators
 - namespace and scope
 
-### `Exception Handling in Python /`
+### `Exception Handling in Python/`
 Concepts and examples for:
 
 - Python error types
@@ -118,7 +118,7 @@ Mini-project notebooks such as:
 - DinosaursPedia
 - Google account create/login simulation
 
-### `NumPy For Python /`
+### `NumPy For Python/`
 Core NumPy notebooks covering:
 
 - NumPy fundamentals
@@ -178,7 +178,7 @@ Main datasets include:
 - `subs.csv`
 - `titanic.csv`
 
-It also includes a supplemental `datasets /` folder with additional CSV and Excel files such as course, student, registration, and match data.
+It also includes a supplemental `datasets/` folder with additional CSV and Excel files such as course, student, registration, and match data.
 
 ---
 
