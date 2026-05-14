@@ -99,7 +99,7 @@ Object-oriented programming topics including:
 - aggregation
 - `super()` usage
 
-### `Python fundamental Questions/`
+### `Python Fundamental Questions/`
 Practice notebooks for:
 
 - beginner-level problem solving
@@ -108,7 +108,7 @@ Practice notebooks for:
 - decorators and exception handling practice
 - OOP practice
 
-### `My projects/`
+### `My Projects/`
 Mini-project notebooks such as:
 
 - calculator
@@ -149,10 +149,10 @@ Structured Pandas learning content with subfolders:
 - **DataFrames in Pandas/**  
   DataFrame creation, filtering, selection, index editing, math methods, grouping, merging, joining, concatenation, and reference notebooks
 
-- **DateTime  in Pandas/**  
+- **DateTime in Pandas/**  
   Date/time handling, multi-index objects, and vectorized string operations
 
-- **Practice in pandas/**  
+- **Practice in Pandas/**  
   Applied notebooks using real datasets such as YouTube analytics, cities by GDP, and student academics
 
 ---
