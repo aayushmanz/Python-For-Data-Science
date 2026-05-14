@@ -5,158 +5,190 @@
 ![License](https://img.shields.io/github/license/aayushmanz/Python-For-Data-Science)
 ![Last Commit](https://img.shields.io/github/last-commit/aayushmanz/Python-For-Data-Science)
 
-Welcome to my **Python for Data Science** learning repository.
+This repository captures a hands-on Python-to-Data-Science learning journey through Jupyter notebooks, practice exercises, mini-projects, and real-world datasets.
 
-This repository documents my hands-on journey from fundamental Python programming to data science-ready coding, utilizing Jupyter Notebooks, practice sets, and modular mini-projects.
+It starts with core Python programming, moves into object-oriented programming and file handling, and then expands into NumPy and Pandas for data analysis workflows.
 
 ---
 
 ## Table of Contents
 
+- [Overview](#overview)
+- [Learning Path](#learning-path)
 - [Repository Structure](#repository-structure)
-  - [Fundamentals of Python](#fundamentals-of-python)
-  - [Advance Python](#advance-python)
-  - [Exception Handling in Python](#exception-handling-in-python)
-  - [File Handling in Python](#file-handling-in-python)
-  - [OOPS in Python](#oops-in-python)
-  - [Python Fundamental Questions](#python-fundamental-questions)
-  - [My Projects](#my-projects)
-  - [NumPy For Python](#numpy-for-python)
-  - [NumPy For Practice](#numpy-for-practice)
-  - [NumPy Advance](#numpy-advance)
-  - [Pandas in Python](#pandas-in-python)
-  - [Database from Kaggle](#database-from-kaggle)
+- [Datasets Included](#datasets-included)
+- [How to Use This Repository](#how-to-use-this-repository)
 - [Tech Stack](#tech-stack)
 - [Goal](#goal)
+
+---
+
+## Overview
+
+This repo is organized as a practical notebook collection for learning:
+
+- Python fundamentals
+- Intermediate and advanced Python concepts
+- Exception handling and file handling
+- Object-oriented programming
+- NumPy basics and advanced operations
+- Pandas Series, DataFrames, and practice exercises
+- Small Python projects for reinforcement
+
+---
+
+## Learning Path
+
+If you are using this repo as a study roadmap, a good order is:
+
+1. **Fundamentals of Python**
+2. **Advance Python**
+3. **Exception Handling in Python**
+4. **File Handling in Python**
+5. **OOPS in Python**
+6. **Python Fundamental Questions**
+7. **My Projects**
+8. **NumPy For Python**
+9. **NumPy For Practice**
+10. **NumPy Advance**
+11. **Pandas in Python**
 
 ---
 
 ## Repository Structure
 
 ### `Fundamentals of Python/`
-Core Python programming concepts:
-- Control flow (if-else statements, for loops, while loops, nested loops, loop control mechanisms)
-- Data structures (lists, tuples, sets, frozensets, dictionaries, strings)
-- String operations and practice exercises
-- Functions and arguments
-- Lambda functions, list comprehensions, and dictionary comprehensions
-- Sequence sum patterns
-- Modules and operators
+Foundational Python notebooks covering:
+
+- `if-else`, `for`, `while`, and nested loops
+- strings, lists, tuples, sets, frozensets, and dictionaries
+- functions, lambda expressions, and modules
+- operators, sequence sum patterns, and practice exercises
+- list and dictionary comprehensions
 
 ### `Advance Python/`
-- Decorators
-- Namespace and scope management
+Focused notebooks on:
+
+- decorators
+- namespace and scope
 
 ### `Exception Handling in Python/`
-- Classification of Python errors
-- Implementation of try, except, else, and finally blocks
-- Creating and handling custom exceptions
+Concepts and examples for:
+
+- Python error types
+- `try`, `except`, `else`, and `finally`
+- custom exception creation and handling
 
 ### `File Handling in Python/`
-- Text file operations (read, write, append) and context management using the `with` statement
-- Binary file operations
-- Serialization and deserialization
-- Pickling and unpickling Python objects
+Notebook-based coverage of:
+
+- reading, writing, and appending files
+- `with` statement usage
+- binary file handling
+- serialization, deserialization, and pickling
 
 ### `OOPS in Python/`
-Object-Oriented Programming principles:
-- Classes and objects (Part 1 & 2)
-- Reference variables and user-defined data types
-- Inheritance hierarchies
-- Encapsulation and data hiding
-- Abstraction
-- Polymorphism
-- Object aggregation and the `super()` function
+Object-oriented programming topics including:
+
+- classes and objects
+- reference variables and user-defined data types
+- inheritance
+- encapsulation
+- abstraction
+- polymorphism
+- aggregation
+- `super()` usage
 
 ### `Python Fundamental Questions/`
-Practice notebooks dedicated to:
-- Fundamental logic and level-1 problem solving
-- List and dictionary manipulation exercises
-- List comprehension practice
-- Decorator practicals
+Practice notebooks for:
+
+- beginner-level problem solving
+- dictionary and list exercises
+- list comprehension practice
+- decorators and exception handling practice
 - OOP practice
-- Exception handling practicals
 
 ### `My Projects/`
-Functional mini-projects developed during the learning phase:
-- Standard Calculator and Calculator V2
-- ATM System simulation
-- Library Management project
+Mini-project notebooks such as:
+
+- calculator
+- calculator v2
+- ATM system
+- library project
 - DinosaursPedia
-- Google Account Creation & Login simulation
+- Google account create/login simulation
 
 ### `NumPy For Python/`
-Fundamental array computing:
-- Array creation and attributes
-- Basic indexing and slicing
-- Iteration and array reshaping
-- Array stacking and splitting
+Core NumPy notebooks covering:
+
+- NumPy fundamentals
+- array attributes and helper functions
+- indexing and slicing
+- iterating and reshaping arrays
+- stacking and splitting arrays
 
 ### `NumPy For Practice/`
-Dedicated notebooks for reinforcing core NumPy concepts.
+Practice notebooks for reinforcing NumPy basics.
 
 ### `NumPy Advance/`
-In-depth exploration of advanced array operations and mathematical computing:
-- **Advanced Indexing:** Techniques for complex array selection and multi-dimensional slicing.
-- **Array Broadcasting:** Operational rules, implementation examples, and computational error resolution.
-- **Handling Missing Values:** Identification, filtering, and management of NaN/null data points within numerical arrays.
-- **Plotting Graphs:** Integrating array data with visualization operations.
-- **Set Functions:** Advanced operations including union, intersection, and unique value extraction on arrays.
-- **Extra Methods (Part 1 & 2):** Comprehensive coverage of specialized NumPy utility functions for extended statistical and mathematical operations.
+Advanced NumPy topics including:
+
+- advanced indexing
+- broadcasting
+- missing value handling
+- plotting workflows
+- set functions
+- additional NumPy utility methods
 
 ### `Pandas in Python/`
-Comprehensive coverage of the Pandas library for data manipulation and analysis, organized into sub-folders:
+Structured Pandas learning content with subfolders:
 
-**Series in Pandas/**
-- Creation and structural understanding (Part 1 & 2)
-- Indexing and slicing
-- Math methods
-- Plotting with built-in plot methods
+- **Series in Pandas/**  
+  Series creation, indexing, slicing, math methods, and plotting
 
-**DataFrames in Pandas/**
-- Introduction, creation, and structural understanding
-- Filtering data and adding columns
-- Editing the index and using Python functionality within Pandas
-- Selecting columns, rows, and combined selections
-- Math methods and statistical operations
-- **GroupBy:** Aggregation, transformation, and group-level operations (Part 1 & 2), including hands-on exercises
-- Merging, joining, and concatenation of DataFrames
-- Important DataFrame methods (reference notebook)
-- DataFrames deep-dive (CampusX series)
+- **DataFrames in Pandas/**  
+  DataFrame creation, filtering, selection, index editing, math methods, grouping, merging, joining, concatenation, and reference notebooks
 
-**Practice in Pandas/**
-- Practice 1: YouTube channel analytics
-- Practice 2: Cities by GDP analysis
-- Practice 3: Student academic performance
+- **DateTime in Pandas/**  
+  Date/time handling, multi-index objects, and vectorized string operations
 
-### `Database from Kaggle/`
-A curated collection of real-world CSV datasets used across Pandas and NumPy notebooks:
+- **Practice in Pandas/**  
+  Applied notebooks using real datasets such as YouTube analytics, cities by GDP, and student academics
 
-| Dataset | Description |
-|---|---|
-| `batsman_runs_ipl.csv` | IPL batsman run statistics |
-| `bollywood.csv` | Bollywood movie data |
-| `cities_by_gdp.csv` | Cities ranked by GDP |
-| `deliveries.csv` | IPL ball-by-ball delivery data |
-| `diabetes.csv` | Diabetes patient health metrics |
-| `global_top2000.csv` | Global top 2000 companies |
-| `imdb-top-1000.csv` | IMDB top 1000 movies |
-| `ipl-matches.csv` | IPL match results |
-| `kohli_ipl.csv` | Virat Kohli IPL performance stats |
-| `movies.csv` | General movies dataset |
-| `student_performance_finalscore.csv` | Student academic performance and final scores |
-| `subs.csv` | Subscriber data |
+---
 
-**`datasets /` subfolder** contains additional supporting files:
+## Datasets Included
 
-| File | Description |
-|---|---|
-| `courses.csv / courses.xlsx` | Course catalogue data |
-| `deliveries.csv` | Supplementary delivery data |
-| `matches.csv` | Supplementary match data |
-| `reg-month1.csv` | Registration data for month 1 |
-| `reg-month2.csv / reg-month2.xlsx` | Registration data for month 2 |
-| `students.csv / students.xlsx` | Student registration data |
+The `Database from Kaggle/` folder contains datasets used across the NumPy and Pandas notebooks.
+
+Main datasets include:
+
+- `batsman_runs_ipl.csv`
+- `bollywood.csv`
+- `cities_by_gdp.csv`
+- `deliveries.csv`
+- `diabetes.csv`
+- `expense_data.csv`
+- `global_top2000.csv`
+- `imdb-top-1000.csv`
+- `ipl-matches.csv`
+- `kohli_ipl.csv`
+- `movies.csv`
+- `student_performance_finalscore.csv`
+- `subs.csv`
+- `titanic.csv`
+
+It also includes a supplemental `datasets/` folder with additional CSV and Excel files such as course, student, registration, and match data.
+
+---
+
+## How to Use This Repository
+
+1. Clone the repository.
+2. Open the notebooks in Jupyter Notebook or JupyterLab.
+3. Move through the folders in the recommended learning order.
+4. Use the datasets in `Database from Kaggle/` while practicing NumPy and Pandas notebooks.
+5. Revisit the mini-projects and practice notebooks to reinforce concepts.
 
 ---
 
@@ -165,17 +197,17 @@ A curated collection of real-world CSV datasets used across Pandas and NumPy not
 | Tool | Purpose |
 |---|---|
 | Python 3 | Core programming language |
-| Jupyter Notebook | Interactive development environment |
+| Jupyter Notebook | Interactive notebook environment |
 | NumPy | Numerical computing |
 | Pandas | Data manipulation and analysis |
-| Matplotlib | Data visualization |
+| Matplotlib | Visualization support |
 | Git & GitHub | Version control and hosting |
 
 ---
 
 ## Goal
 
-To establish a robust foundation in Python programming tailored for Data Science, bridging the gap between theoretical syntax and real-world data analysis and analytical projects.
+To build a strong Python foundation for data science by combining conceptual learning, repeated practice, notebook-based experimentation, and small project work.
 
 ---
 
