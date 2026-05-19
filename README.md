@@ -207,6 +207,9 @@ pip install jupyter numpy pandas matplotlib
 jupyter notebook
 ```
 
+> On Windows (PowerShell), activate the environment with: `.venv\Scripts\Activate.ps1`  
+> Package installation above is a minimal setup for running the notebooks in this repo.
+
 ---
 
 ## Tech Stack
