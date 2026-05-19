@@ -18,7 +18,10 @@ It starts with core Python programming, moves into object-oriented programming a
 - [Repository Structure](#repository-structure)
 - [Datasets Included](#datasets-included)
 - [How to Use This Repository](#how-to-use-this-repository)
+- [Quick Start](#quick-start)
 - [Tech Stack](#tech-stack)
+- [Repository Notes](#repository-notes)
+- [Contributing](#contributing)
 - [Goal](#goal)
 
 ---
@@ -185,10 +188,24 @@ It also includes a supplemental `datasets/` folder with additional CSV and Excel
 ## How to Use This Repository
 
 1. Clone the repository.
-2. Open the notebooks in Jupyter Notebook or JupyterLab.
-3. Move through the folders in the recommended learning order.
-4. Use the datasets in `Database from Kaggle/` while practicing NumPy and Pandas notebooks.
-5. Revisit the mini-projects and practice notebooks to reinforce concepts.
+2. Set up Python 3 and Jupyter in your local environment.
+3. Open the notebooks in Jupyter Notebook or JupyterLab.
+4. Move through the folders in the recommended learning order.
+5. Use the datasets in `Database from Kaggle/` while practicing NumPy and Pandas notebooks.
+6. Revisit the mini-projects and practice notebooks to reinforce concepts.
+
+---
+
+## Quick Start
+
+```bash
+git clone https://github.com/aayushmanz/Python-For-Data-Science.git
+cd Python-For-Data-Science
+python -m venv .venv
+source .venv/bin/activate
+pip install jupyter numpy pandas matplotlib
+jupyter notebook
+```
 
 ---
 
@@ -202,6 +219,24 @@ It also includes a supplemental `datasets/` folder with additional CSV and Excel
 | Pandas | Data manipulation and analysis |
 | Matplotlib | Visualization support |
 | Git & GitHub | Version control and hosting |
+
+---
+
+## Repository Notes
+
+- Some folder names in this repository include spaces (and a few include trailing spaces), so copy paths carefully when working in the terminal.
+- Most content is notebook-based (`.ipynb`) and designed for interactive learning.
+
+---
+
+## Contributing
+
+Contributions are welcome. If you want to improve notebooks, fix typos, or add new exercises:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Make your changes and commit them.
+4. Open a pull request with a short summary of the update.
 
 ---
 
