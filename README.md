@@ -7,7 +7,7 @@
 
 This repository captures a hands-on Python-to-Data-Science learning journey through Jupyter notebooks, practice exercises, mini-projects, and real-world datasets.
 
-It starts with core Python programming, moves into object-oriented programming and file handling, and then expands into NumPy and Pandas for data analysis workflows.
+It starts with core Python programming, moves into object-oriented programming and file handling, and then expands into NumPy, Matplotlib, and Pandas for data analysis workflows.
 
 ---
 
@@ -35,6 +35,7 @@ This repo is organized as a practical notebook collection for learning:
 - Exception handling and file handling
 - Object-oriented programming
 - NumPy basics and advanced operations
+- Matplotlib plotting and charting workflows
 - Pandas Series, DataFrames, and practice exercises
 - Small Python projects for reinforcement
 
@@ -54,7 +55,8 @@ If you are using this repo as a study roadmap, a good order is:
 8. **NumPy For Python**
 9. **NumPy For Practice**
 10. **NumPy Advance**
-11. **Pandas in Python**
+11. **Matplotlib in Python**
+12. **Pandas in Python**
 
 ---
 
@@ -143,6 +145,14 @@ Advanced NumPy topics including:
 - set functions
 - additional NumPy utility methods
 
+### `Matplotlib in Python/`
+Notebook-based visualization lessons for:
+
+- 2D line plots
+- bar charts
+- scatter plots
+- plotting with supporting datasets
+
 ### `Pandas in Python/`
 Structured Pandas learning content with subfolders:
 
@@ -158,11 +168,20 @@ Structured Pandas learning content with subfolders:
 - **Practice in Pandas/**  
   Applied notebooks using real datasets such as YouTube analytics, cities by GDP, and student academics
 
+### `Database from Kaggle/`
+Dataset collection used across NumPy, Pandas, and Matplotlib notebooks:
+
+- IPL match and delivery data
+- movies and IMDb datasets
+- student performance and expense datasets
+- healthcare and analytics practice datasets
+- supplemental files in `datasets/`
+
 ---
 
 ## Datasets Included
 
-The `Database from Kaggle/` folder contains datasets used across the NumPy and Pandas notebooks.
+The `Database from Kaggle/` folder contains datasets used across the NumPy, Matplotlib, and Pandas notebooks.
 
 Main datasets include:
 
