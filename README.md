@@ -21,6 +21,7 @@ It starts with core Python programming, moves into object-oriented programming a
 - [Quick Start](#quick-start)
 - [Tech Stack](#tech-stack)
 - [Repository Notes](#repository-notes)
+- [Seaborn in Python](#seaborn-in-python)
 - [Contributing](#contributing)
 - [Goal](#goal)
 
@@ -36,6 +37,7 @@ This repo is organized as a practical notebook collection for learning:
 - Object-oriented programming
 - NumPy basics and advanced operations
 - Matplotlib plotting and charting workflows
+- Seaborn statistical data visualization
 - Pandas Series, DataFrames, and practice exercises
 - Small Python projects for reinforcement
 
@@ -50,13 +52,14 @@ If you are using this repo as a study roadmap, a good order is:
 3. **Exception Handling in Python**
 4. **File Handling in Python**
 5. **OOPS in Python**
-6. **Python Fundamental Questions**
-7. **My Projects**
+6. **Python fundamental Questions**
+7. **My projects**
 8. **NumPy For Python**
 9. **NumPy For Practice**
 10. **NumPy Advance**
 11. **Matplotlib in Python**
-12. **Pandas in Python**
+12. **Seaborn in Python**
+13. **Pandas in Python**
 
 ---
 
@@ -104,7 +107,7 @@ Object-oriented programming topics including:
 - aggregation
 - `super()` usage
 
-### `Python Fundamental Questions/`
+### `Python fundamental Questions/`
 Practice notebooks for:
 
 - beginner-level problem solving
@@ -113,7 +116,7 @@ Practice notebooks for:
 - decorators and exception handling practice
 - OOP practice
 
-### `My Projects/`
+### `My projects/`
 Mini-project notebooks such as:
 
 - calculator
@@ -152,6 +155,13 @@ Notebook-based visualization lessons for:
 - bar charts
 - scatter plots
 - plotting with supporting datasets
+
+### `Seaborn in Python/`
+Notebook-based Seaborn lessons for:
+
+- distribution and categorical plots
+- relational and regression plots
+- styling and statistical visualizations
 
 ### `Pandas in Python/`
 Structured Pandas learning content with subfolders:
@@ -222,7 +232,7 @@ git clone https://github.com/aayushmanz/Python-For-Data-Science.git
 cd Python-For-Data-Science
 python -m venv .venv
 source .venv/bin/activate
-pip install jupyter numpy pandas matplotlib
+pip install jupyter numpy pandas matplotlib seaborn
 jupyter notebook
 ```
 
@@ -240,6 +250,7 @@ jupyter notebook
 | NumPy | Numerical computing |
 | Pandas | Data manipulation and analysis |
 | Matplotlib | Visualization support |
+| Seaborn | Statistical data visualization |
 | Git & GitHub | Version control and hosting |
 
 ---
@@ -248,6 +259,12 @@ jupyter notebook
 
 - Some folder names in this repository include spaces (and a few include trailing spaces), so copy paths carefully when working in the terminal.
 - Most content is notebook-based (`.ipynb`) and designed for interactive learning.
+
+---
+
+## Seaborn in Python
+
+The `Seaborn in Python/` folder adds visualization notebooks built on top of Matplotlib, including distribution, categorical, relational, and regression-focused plotting practice.
 
 ---
 
