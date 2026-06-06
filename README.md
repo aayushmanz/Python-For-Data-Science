@@ -5,223 +5,95 @@
 ![License](https://img.shields.io/github/license/aayushmanz/Python-For-Data-Science)
 ![Last Commit](https://img.shields.io/github/last-commit/aayushmanz/Python-For-Data-Science)
 
-This repository captures a hands-on Python-to-Data-Science learning journey through Jupyter notebooks, practice exercises, mini-projects, and real-world datasets.
-
-It starts with core Python programming, moves into object-oriented programming and file handling, and then expands into NumPy, Matplotlib, and Pandas for data analysis workflows.
+A structured, notebook-first repository for learning Python and applying it to data science through hands-on practice, projects, and real datasets.
 
 ---
 
 ## Table of Contents
-
 - [Overview](#overview)
-- [Learning Path](#learning-path)
+- [What You Will Learn](#what-you-will-learn)
 - [Repository Structure](#repository-structure)
-- [Datasets Included](#datasets-included)
-- [How to Use This Repository](#how-to-use-this-repository)
+- [Learning Sequence](#learning-sequence)
+- [Datasets](#datasets)
 - [Quick Start](#quick-start)
-- [Tech Stack](#tech-stack)
-- [Repository Notes](#repository-notes)
-- [Seaborn in Python](#seaborn-in-python)
+- [Tools and Technologies](#tools-and-technologies)
 - [Contributing](#contributing)
-- [Goal](#goal)
+- [License](#license)
 
 ---
 
 ## Overview
 
-This repo is organized as a practical notebook collection for learning:
-
-- Python fundamentals
-- Intermediate and advanced Python concepts
-- Exception handling and file handling
-- Object-oriented programming
-- NumPy basics and advanced operations
-- Matplotlib plotting and charting workflows
-- Seaborn statistical data visualization
-- Pandas Series, DataFrames, and practice exercises
-- Small Python projects for reinforcement
+This repository is designed as a complete Python-for-data-science learning track. It begins with core Python concepts and gradually progresses to data analysis and visualization using NumPy, Pandas, Matplotlib, and Seaborn.
 
 ---
 
-## Learning Path
+## What You Will Learn
 
-If you are using this repo as a study roadmap, a good order is:
-
-1. **Fundamentals of Python**
-2. **Advance Python**
-3. **Exception Handling in Python**
-4. **File Handling in Python**
-5. **OOPS in Python**
-6. **Python fundamental Questions**
-7. **My projects**
-8. **NumPy For Python**
-9. **NumPy For Practice**
-10. **NumPy Advance**
-11. **Matplotlib in Python**
-12. **Seaborn in Python**
-13. **Pandas in Python**
+- Python fundamentals and syntax
+- Intermediate and advanced Python concepts
+- Object-oriented programming (OOP)
+- Exception and file handling
+- NumPy fundamentals and advanced operations
+- Data analysis with Pandas
+- Data visualization with Matplotlib and Seaborn
+- Practice exercises and mini projects
 
 ---
 
 ## Repository Structure
 
-### `Fundamentals of Python/`
-Foundational Python notebooks covering:
+| Folder | Focus Area |
+|---|---|
+| `Fundamentals of Python/` | Core Python basics, control flow, data structures, functions |
+| `Advance Python/` | Decorators, scope, and advanced language concepts |
+| `Exception Handling in Python /` | Error handling patterns and custom exceptions |
+| `File Handling in Python/` | File I/O, binary files, and serialization |
+| `OOPS in Python/` | Classes, inheritance, polymorphism, abstraction, encapsulation |
+| `Python fundamental Questions/` | Practice questions for core and intermediate topics |
+| `My projects/` | Mini projects for applied learning |
+| `NumPy For Python /` | NumPy fundamentals and array operations |
+| `NumPy For Practice/` | NumPy practice notebooks |
+| `NumPy Advance/` | Broadcasting, advanced indexing, utilities |
+| `Matplotlib in Python/` | Plotting and charting exercises |
+| `Seaborn in Python/` | Statistical and relational visualizations |
+| `Pandas in Python/` | Series, DataFrames, DateTime operations, and practice |
+| `Database from Kaggle/` | Dataset collection used across notebooks |
+| `Exploratory Data Analysis (EDA)/` | EDA-focused notebook work |
 
-- `if-else`, `for`, `while`, and nested loops
-- strings, lists, tuples, sets, frozensets, and dictionaries
-- functions, lambda expressions, and modules
-- operators, sequence sum patterns, and practice exercises
-- list and dictionary comprehensions
-
-### `Advance Python/`
-Focused notebooks on:
-
-- decorators
-- namespace and scope
-
-### `Exception Handling in Python/`
-Concepts and examples for:
-
-- Python error types
-- `try`, `except`, `else`, and `finally`
-- custom exception creation and handling
-
-### `File Handling in Python/`
-Notebook-based coverage of:
-
-- reading, writing, and appending files
-- `with` statement usage
-- binary file handling
-- serialization, deserialization, and pickling
-
-### `OOPS in Python/`
-Object-oriented programming topics including:
-
-- classes and objects
-- reference variables and user-defined data types
-- inheritance
-- encapsulation
-- abstraction
-- polymorphism
-- aggregation
-- `super()` usage
-
-### `Python fundamental Questions/`
-Practice notebooks for:
-
-- beginner-level problem solving
-- dictionary and list exercises
-- list comprehension practice
-- decorators and exception handling practice
-- OOP practice
-
-### `My projects/`
-Mini-project notebooks such as:
-
-- calculator
-- calculator v2
-- ATM system
-- library project
-- DinosaursPedia
-- Google account create/login simulation
-
-### `NumPy For Python/`
-Core NumPy notebooks covering:
-
-- NumPy fundamentals
-- array attributes and helper functions
-- indexing and slicing
-- iterating and reshaping arrays
-- stacking and splitting arrays
-
-### `NumPy For Practice/`
-Practice notebooks for reinforcing NumPy basics.
-
-### `NumPy Advance/`
-Advanced NumPy topics including:
-
-- advanced indexing
-- broadcasting
-- missing value handling
-- plotting workflows
-- set functions
-- additional NumPy utility methods
-
-### `Matplotlib in Python/`
-Notebook-based visualization lessons for:
-
-- 2D line plots
-- bar charts
-- scatter plots
-- plotting with supporting datasets
-
-### `Seaborn in Python/`
-Notebook-based Seaborn lessons for:
-
-- distribution and categorical plots
-- relational and regression plots
-- styling and statistical visualizations
-
-### `Pandas in Python/`
-Structured Pandas learning content with subfolders:
-
-- **Series in Pandas/**  
-  Series creation, indexing, slicing, math methods, and plotting
-
-- **DataFrames in Pandas/**  
-  DataFrame creation, filtering, selection, index editing, math methods, grouping, merging, joining, concatenation, and reference notebooks
-
-- **DateTime in Pandas/**  
-  Date/time handling, multi-index objects, and vectorized string operations
-
-- **Practice in Pandas/**  
-  Applied notebooks using real datasets such as YouTube analytics, cities by GDP, and student academics
-
-### `Database from Kaggle/`
-Dataset collection used across NumPy, Pandas, and Matplotlib notebooks:
-
-- IPL match and delivery data
-- movies and IMDb datasets
-- student performance and expense datasets
-- healthcare and analytics practice datasets
-- supplemental files in `datasets/`
+> Note: Some folder names include spaces, and a few intentionally include trailing spaces (for example, `Exception Handling in Python /` and `NumPy For Python /`) to preserve the repository's original notebook and dataset paths. Copy paths carefully when using terminal commands.
 
 ---
 
-## Datasets Included
+## Learning Sequence
 
-The `Database from Kaggle/` folder contains datasets used across the NumPy, Matplotlib, and Pandas notebooks.
+Recommended study order:
 
-Main datasets include:
-
-- `batsman_runs_ipl.csv`
-- `bollywood.csv`
-- `cities_by_gdp.csv`
-- `deliveries.csv`
-- `diabetes.csv`
-- `expense_data.csv`
-- `global_top2000.csv`
-- `imdb-top-1000.csv`
-- `ipl-matches.csv`
-- `kohli_ipl.csv`
-- `movies.csv`
-- `student_performance_finalscore.csv`
-- `subs.csv`
-- `titanic.csv`
-
-It also includes a supplemental `datasets/` folder with additional CSV and Excel files such as course, student, registration, and match data.
+1. Fundamentals of Python
+2. Advance Python
+3. Exception Handling in Python
+4. File Handling in Python
+5. OOPS in Python
+6. Python fundamental Questions
+7. My projects
+8. NumPy For Python
+9. NumPy For Practice
+10. NumPy Advance
+11. Matplotlib in Python
+12. Seaborn in Python
+13. Pandas in Python
+14. Exploratory Data Analysis (EDA)
 
 ---
 
-## How to Use This Repository
+## Datasets
 
-1. Clone the repository.
-2. Set up Python 3 and Jupyter in your local environment.
-3. Open the notebooks in Jupyter Notebook or JupyterLab.
-4. Move through the folders in the recommended learning order.
-5. Use the datasets in `Database from Kaggle/` while practicing NumPy and Pandas notebooks.
-6. Revisit the mini-projects and practice notebooks to reinforce concepts.
+The `Database from Kaggle/` directory contains datasets used throughout NumPy, Pandas, and visualization notebooks, including:
+
+- IPL match and delivery datasets
+- Movie and IMDb datasets
+- Student performance and expense datasets
+- Additional CSV/Excel files in `Database from Kaggle/datasets /` (note the intentional trailing space after `datasets`).
 
 ---
 
@@ -236,53 +108,41 @@ pip install jupyter numpy pandas matplotlib seaborn
 jupyter notebook
 ```
 
-> On Windows (PowerShell), activate the environment with: `.venv\Scripts\Activate.ps1`  
-> Package installation above is a minimal setup for running the notebooks in this repo.
+For Windows PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
 
 ---
 
-## Tech Stack
+## Tools and Technologies
 
-| Tool | Purpose |
-|---|---|
-| Python 3 | Core programming language |
-| Jupyter Notebook | Interactive notebook environment |
-| NumPy | Numerical computing |
-| Pandas | Data manipulation and analysis |
-| Matplotlib | Visualization support |
-| Seaborn | Statistical data visualization |
-| Git & GitHub | Version control and hosting |
-
----
-
-## Repository Notes
-
-- Some folder names in this repository include spaces (and a few include trailing spaces), so copy paths carefully when working in the terminal.
-- Most content is notebook-based (`.ipynb`) and designed for interactive learning.
-
----
-
-## Seaborn in Python
-
-The `Seaborn in Python/` folder adds visualization notebooks built on top of Matplotlib, including distribution, categorical, relational, and regression-focused plotting practice.
+- Python 3
+- Jupyter Notebook
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Git and GitHub
 
 ---
 
 ## Contributing
 
-Contributions are welcome. If you want to improve notebooks, fix typos, or add new exercises:
+Contributions are welcome.
 
-1. Fork the repository.
-2. Create a feature branch.
-3. Make your changes and commit them.
-4. Open a pull request with a short summary of the update.
-
----
-
-## Goal
-
-To build a strong Python foundation for data science by combining conceptual learning, repeated practice, notebook-based experimentation, and small project work.
+1. Fork the repository
+2. Create a feature branch
+3. Make and commit your changes
+4. Open a pull request with a clear summary
 
 ---
 
-*Maintained by Ayush Suthar*
+## License
+
+This project is available under the [MIT License](LICENSE).
+
+---
+
+Maintained by **Ayush Suthar**.
