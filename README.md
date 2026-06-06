@@ -61,7 +61,7 @@ This repository is designed as a complete Python-for-data-science learning track
 | `Database from Kaggle/` | Dataset collection used across notebooks |
 | `Exploratory Data Analysis (EDA)/` | EDA-focused notebook work |
 
-> Note: Some folder names include spaces, and a few include trailing spaces. Copy paths carefully when using terminal commands.
+> Note: Some folder names include spaces, and a few intentionally include trailing spaces (for example, `Exception Handling in Python /` and `NumPy For Python /`). Copy paths carefully when using terminal commands.
 
 ---
 
@@ -93,7 +93,7 @@ The `Database from Kaggle/` directory contains datasets used throughout NumPy, P
 - IPL match and delivery datasets
 - Movie and IMDb datasets
 - Student performance and expense datasets
-- Additional CSV/Excel files in `Database from Kaggle/datasets /`
+- Additional CSV/Excel files in `Database from Kaggle/datasets /` (note the intentional space before `/`).
 
 ---
 
