@@ -14,6 +14,7 @@ A structured, notebook-first repository for learning Python and applying it to d
 - [What You Will Learn](#what-you-will-learn)
 - [Repository Structure](#repository-structure)
 - [Learning Sequence](#learning-sequence)
+- [How to Use This Repository](#how-to-use-this-repository)
 - [Datasets](#datasets)
 - [Quick Start](#quick-start)
 - [Tools and Technologies](#tools-and-technologies)
@@ -83,6 +84,17 @@ Recommended study order:
 12. Seaborn in Python
 13. Pandas in Python
 14. Exploratory Data Analysis (EDA)
+
+---
+
+## How to Use This Repository
+
+- Follow the recommended learning sequence and complete notebooks topic by topic.
+- Re-run code cells and write your own variations to strengthen understanding.
+- Use `Python fundamental Questions/` and `NumPy For Practice/` for revision and self-check.
+- Use `My projects/` to apply concepts in small end-to-end exercises.
+
+> Tip: When opening directories with trailing spaces in terminal commands, wrap paths in quotes, for example: `cd "Exception Handling in Python "`.
 
 ---
 
