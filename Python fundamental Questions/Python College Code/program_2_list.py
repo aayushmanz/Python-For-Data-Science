@@ -1,17 +1,19 @@
 if __name__ == "__main__":
     
-    """
+  """
     This is my code and i m testing it.
     
-    """
+  """
     
-    a = []
+  a = []
+  try:   
+   n = int(input("Enter the Number : "))
+   assert n > 0
     
-    n = int(input("Enter the Number : "))
-    
-    print("")
-    print("insert the value : ")
-    print("-"*20)
+   print("")
+   print("insert the value : ")
+   print("-"*20)
+   while True: 
     for i in range(n):
         num = input("Enter the value : ")
         a.append(num)
@@ -29,6 +31,15 @@ if __name__ == "__main__":
     remove = int(input("Enter the remove element : "))
     for i in range(n):
       if remove == a[i]:
+          a.remove(remove)
+    print(f"{remove} is successfully removed !")
+  except AssertionError:
+      print("Please Enter the Greater value than Zero !")    
+  finally:
+      print("Thanks For using My code ! ")       
+      
+      
+      
              
         
           
