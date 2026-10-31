@@ -46,6 +46,31 @@ if __name__ == "__main__":
                 val = input("Enter the value : ")
                 a.insert(pos, val)
                 print(a)
+                
+                print("")
+                print("append the element : ")
+                print("-" * 20)
+                val = input("Enter which value u wanna add : ")
+                a.append(val)
+                print(a)
+                
+                print("")
+                print("insert the element : ")
+                print("-" * 20)
+                val = input("Enter the value separate it with space pls : ").split()
+                a.extend(val)
+                print(a)
+                
+                
+                print("")
+                print("Pop the element : ")
+                print("-" * 20)
+                val = int(input("Enter the index for delete the value : "))
+                a.pop(val)
+                print(a)
+                
+                
+                
 
     except AssertionError:
         print("Please Enter the Greater value than Zero !")
