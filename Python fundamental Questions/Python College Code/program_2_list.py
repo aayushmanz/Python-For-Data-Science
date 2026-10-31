@@ -69,9 +69,6 @@ if __name__ == "__main__":
                 a.pop(val)
                 print(a)
                 
-                
-                
-
     except AssertionError:
         print("Please Enter the Greater value than Zero !")
     finally:
